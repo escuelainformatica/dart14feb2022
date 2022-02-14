@@ -1,5 +1,13 @@
 A simple command-line application.
 
+# usar el programa
+
+* descargar programa git
+
+* correr en linea de comando (en la carpeta donde se quiere trar el proyecto)
+
+> git clone https://github.com/escuelainformatica/dart14feb2022.git
+
 # Static
 
 * Un metodo estatico, es un metodo que se puede llamar directamente usando la clase
@@ -57,5 +65,42 @@ factory(String? campo1,String? campo2) {
 
 Map<String,dynamic> mapa={"campo1":"valor1","campo2":"valor2"};
 Map<String,dynamic> mapa=factory("valor1","valor2");
+
+```
+
+# Condiciones
+
+```dart
+if (condicion) {
+  
+} else {
+  
+}
+
+switch(valor) {
+  case comparar:
+    break;
+  case comparar2:
+    break;
+  default:
+}
+```
+
+# Ciclos
+
+```dart
+for(int i=0;i<10;i++) {
+  
+}
+// for each 
+// tiene que usarse con un objeto del tipo iterable (ej: List)
+for(var fila in listable) {
+  
+}
+// while
+while(condition) {
+  
+}
+
 
 ```
